@@ -1,14 +1,12 @@
-name: Python package
+name: python_package
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: alpine-latest
     steps:
     - uses: actions/checkout@v4
     
