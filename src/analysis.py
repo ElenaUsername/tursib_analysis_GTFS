@@ -9,6 +9,7 @@ from visualizer import GTFSVisualizer
 
 logger = logging.getLogger(__name__)
 
+
 class TursibAnalysis:
     """Orchestrate complete GTFS analysis workflow for Tursib network."""
 
